@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-08">
+        <meta name="veiwport" content="width=device-width, initial-scale=1.0">
+        <title>payment</title>
+    </head>
+    <body>
+        <form action="">
+            <h1>Payment Details</h1>
+            <h2>Contact info</h2>
+            <p>Name: <input type="text" name="name" required></p>
+            <p>male: <input type="radio" name="gender" id="male"> female: <input type="radio" name="gender" id="female"></p>
+            <p>address: <textarea name="address" id="address" cols="100" rows="8"></textarea></p>
+            <p>email: <input type="email" name="email" id="email"></p>
+            <p>pincode: <input type="number" name="pincode" id="pincode"></p>
+            <h2>Payment info</h2>
+            <p>card type:
+                <select name="card type" id="card type">
+                    <option value="">select card type</option>
+                    <option value="Visa">visa</option>
+                    <option value="Mastercard">mastercard</option>
+                    <option value="Rupay">rupay</option>
+                    </select>
+            </p>
+            <p>Card Number: <input type="number" name="card_number" id="card_number"></p>
+            <p>Card Expiry: <input type="date" name="expiry" id="expiry"></p>
+            <p>Card CVV: <input type="password" name="cvv" id="cvv"></p>
+            <p><input type="submit" value="Pay Now"></p>
+        </form>
+    </body>
+</html>

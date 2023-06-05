@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(218, 110, 86);
+}
+
+#heading{
+    font-size: 60px;
+    text-align: center;
+    color: black;
+    padding: auto;
+    margin: 4px;
+    background-color: aqua;
+    margin: 4px;
+}
+
+#photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#desc{
+    color: white;
+    text-shadow: 10px 10px 10px black;
+    font-size: 50px;
+}
+
+#stats{
+    background-color: rgb(46, 139, 87, 0.25);
+    box-shadow: 20px 20px 20px rgb(215, 120, 99);
+    font-family: Georgia;
+    padding: 25px 25px;
+    margin: 11px;
+    margin-top: 50px;
+}
+
+#tribute-link {
+    text-decoration: none;
+    color: black;
+}
