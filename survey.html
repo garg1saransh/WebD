@@ -5,8 +5,8 @@
         <link rel="stylesheet" href="style_survey.css">
     </head>
     <body>
-        <h1>This is a simple survey</h1>
-        <form id="form">
+        <h1 id="heading">This is a simple survey</h1>
+        <form id="quest">
             <p>Name: <input type="text" name="name"></p>
             <p>Email: <input type="email" name="email" id="email"></p>
             <p>Age: <input type="text" name="age" id="age"></p>
@@ -26,10 +26,11 @@
             <div class="form-control">
                 <label>Languages and Frameworks known
                     <small>(Check all that apply)</small>
-                </label>
+                </label><br>
                 <label for="inp-1">
                     <input type="checkbox"
                         name="inp">C</input></label>
+
                 <label for="inp-2">
                     <input type="checkbox"
                         name="inp">C++</input></label>
@@ -56,7 +57,7 @@
                         name="inp">Django</input></label>
                 <label for="inp-7">
                     <input type="checkbox"
-                        name="inp">Spring</input></label>
+                        name="inp">Spring</input></label><br>
             </div>
             <div class="form-control">
                 <label for="comment">
